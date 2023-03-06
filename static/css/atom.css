@@ -1,0 +1,79 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    .category_text {
+        font-size: 20px;
+    }
+    .fashion_text {
+        padding-bottom: 25px;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .category_section {
+        border-radius: 10px;
+        padding-bottom: 30px;
+    }
+    .category_text {
+        padding-bottom: 40px;
+    }
+    .box_main {
+        width: 20%;
+    }
+    .fashion_text {
+        font-size: 14px;
+    }
+
+    .beds_section {
+        margin-top: 30px;
+    }
+    .bed_text {
+        padding-top: 20px;
+    }
+    .bed_text_1 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .category_section {
+        border-radius: 10px;
+    }
+    .category_text {
+        padding-bottom: 40px;
+    }
+    .main {
+        display: initial;
+    }
+    .fashion_text {
+        font-size: 20px;
+    }
+    .beds_section {
+        margin-top: 30px;
+    }
+    .bed_text_1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 575px) {
+   
+    .category_section {
+        border-radius: 10px;
+    }
+    .category_text {
+        padding-bottom: 40px;
+    }
+
+    .main {
+        display: initial;
+    }
+    .fashion_text {
+        font-size: 20px;
+    }
+    .beds_section {
+        margin-top: 30px;
+    }
+    .bed_text_1 {
+        text-align: center;
+    }
+}

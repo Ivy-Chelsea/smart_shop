@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="container pt-5 mt-5">
+    <div class="h2" id="category">Orders for {{user.first_name}} {{user.last_name}}</div>
+    <div class="d-block p-1">
+        {% for orders in order reversed %}
+        <div class="card card-body"><h2><span class="text-danger">{{ orders.itemname }}</span> <span class="text-muted">ordered on {{ orders.date }}</span> </h2> <p>Qty: {{ orders.qty }} <br> {% if orders.delivered == 'True' %} <span class="text-success">Delivered</span> {% else %} <span class="text-info">Not Delivered</span> {% endif %}</p> </div>
+        {% endfor %}    
+    </div>
+{%endblock%}
